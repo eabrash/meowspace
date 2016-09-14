@@ -1,0 +1,132 @@
+/* Outline everything */
+
+body {
+  border: 1px black solid;
+  padding-bottom: 1%;
+}
+
+/* Styling for header*/
+
+.header_banner {
+  background-color: teal;
+  width: 98%;
+  height: 3rem;
+  margin: 0px;
+  padding: 1%;
+  border: black 1px dashed;
+}
+
+.header_title h1  {
+  width: 67%;
+  float: left;
+  margin: 0px;
+  padding-left: 1.3%;
+}
+
+.navbar {
+  width: 30%;
+  float: left;
+  padding: 0px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  list-style-type: none;
+  border: 1px black solid;
+  margin: 0 5% 0 5%;
+}
+
+/* Styling for main article section */
+
+article {
+  border: 1px black dashed;
+  padding: 2%;
+  margin-left: 2.8%;
+}
+
+.tagline {
+  padding: 0 2% 0 2%;
+}
+
+.post-content {
+  border: 1px black solid;
+  padding: 2%;
+}
+
+.metadata {
+  border: 1px black solid;
+  padding: 1% 2% 1% 2%;
+}
+
+.articles {
+  width: 70%;
+  float: left;
+  padding-right: 1%;
+  margin-bottom: 1%;
+}
+
+img {
+  max-width:100%;
+  max-height:100%;
+}
+
+/* Styling for top cats aside*/
+
+aside {
+  width: 25%;
+  float: left;
+}
+
+#top-cats h2 {
+  border: solid 1px black;
+  padding: 8%;
+  margin: 0px;
+}
+
+#top-cats section {
+  border: solid 1px black;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+/* Styling for footer */
+
+footer {
+  clear: both;
+}
+
+.footer-data div:first-child {
+  width: 8%;
+  float: left;
+}
+
+#disclaimer {
+  width: 62%;
+  float: left;
+  font-size: 0.7em;
+}
+
+.footer-data div:nth-child(3) {
+  width: 30%;
+  float: left;
+}
+
+.footer-data li {
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+  list-style-type: none;
+  border: 1px black solid;
+  margin: 0 5% 0 5%;
+}
+
+.footer-data {
+  background-color: teal;
+  width: 98%;
+  height: 3rem;
+  margin-top: 2%;
+  padding: 1%;
+  border: black 1px dashed;
+}
