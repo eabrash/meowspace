@@ -144,7 +144,8 @@ main {
   max-width: 50px;
   display: block;
   padding: 5;
-  margin: 5%;
+  margin-bottom:20%;
+  margin-top:20%;
 }
 
 /* Styling for footer */
@@ -181,7 +182,7 @@ footer {
 .footer-data {
   background-color: teal;
   width: 98%;
-  height: 3rem;
+  height: 80px;
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 1%;
