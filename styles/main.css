@@ -1,19 +1,19 @@
 /* Outline everything */
 
 body {
-  border: 1px black solid;
+  background: rgb(234, 239, 242);
   padding-bottom: 1%;
+  font-family: Helvetica;
 }
 
 /* Styling for header*/
 
 .header_banner {
-  background-color: teal;
+  background-color: #dddc89;
   width: 98%;
   height: 60px;
   margin: 0px;
   padding: 1%;
-  border: black 1px dashed;
 }
 
 .header_title h1  {
@@ -34,14 +34,14 @@ body {
   padding-left: 5%;
   padding-right: 5%;
   list-style-type: none;
-  border: 1px black solid;
+  background-color: #cccdff;
   margin: 0 5% 0 5%;
 }
 
 /* Styling for main article section */
 
 article {
-  border: 1px black dashed;
+  background-color: #cccdff;
   padding: 2%;
   margin-left: 2.8%;
 }
@@ -51,7 +51,7 @@ article {
 }
 
 .post-content {
-  border: 1px black solid;
+  background-color: rgb(234, 239, 242);
   padding: 2%;
 }
 
@@ -75,22 +75,21 @@ img {
 /* For individual article pages */
 
 .title-panel {
-  padding: 0 2% 0 2%;
-  background-color: yellow;
-  border: 1px black solid;
+  padding: 1.5% 2% 1.5% 2%;
+  background-color: #cde9fe;
   align-content: center;
 }
 
 .solo_article_metadata{
-  border: 1px black solid;
   padding: 0.5% 2% 0.5% 2%;
   margin: 0;
+  background-color: #cccdff;
 }
 
 .solo-article {
+  background-color: #cde9fe;
   width: 70%;
   padding: 2%;
-  border: 1px solid black;
   display: inline-block;
   position: relative;
   top: 20px;
@@ -110,15 +109,18 @@ main {
 }
 
 #top-cats h2 {
-  border: solid 1px black;
+  background-color: #dddc89;
   padding: 8%;
   margin: 0px;
 }
 
 #top-cats section {
-  border: solid 1px black;
   padding-left: 4%;
   padding-right: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 2% 0 2% 0;
+  background-color: #cde9fe;
 }
 
 /* Styling for social media sidebar */
@@ -126,12 +128,12 @@ main {
 
 #social-media {
   width: 50px;
-  border: solid 1px black;
   padding: 5px 15px 5px 15px;
   margin: 0px 0px 0px 10px;
   position: relative;
   float: left;
   top: 20px;
+  background-color: #dddc89;
 }
 
 #social-media h2 {
@@ -175,16 +177,16 @@ footer {
   padding-left: 5%;
   padding-right: 5%;
   list-style-type: none;
-  border: 1px black solid;
+  background-color: #cccdff;
   margin: 0 5% 0 5%;
 }
 
 .footer-data {
-  background-color: teal;
+  background-color: #dddc89;
   width: 98%;
   height: 80px;
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 1%;
-  border: black 1px dashed;
+
 }
