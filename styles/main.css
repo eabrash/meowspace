@@ -10,7 +10,7 @@ body {
 .header_banner {
   background-color: teal;
   width: 98%;
-  height: 3rem;
+  height: 60px;
   margin: 0px;
   padding: 1%;
   border: black 1px dashed;
@@ -92,9 +92,14 @@ img {
   padding: 2%;
   border: 1px solid black;
   display: inline-block;
-  position:  sticky;
-  margin-top: 20px;
-  margin-left: 91px;
+  position: relative;
+  top: 20px;
+  margin-left: -1px;
+  margin-bottom: 2%;
+}
+
+main {
+  position: relative;
 }
 
 /* Styling for top cats aside*/
@@ -123,9 +128,10 @@ img {
   width: 50px;
   border: solid 1px black;
   padding: 5px 15px 5px 15px;
-  margin: 10px;
-  position: fixed;
-  top: 13.9rem;
+  margin: 0px 0px 0px 10px;
+  position: relative;
+  float: left;
+  top: 20px;
 }
 
 #social-media h2 {
@@ -139,7 +145,6 @@ img {
   display: block;
   padding: 5;
   margin: 5%;
-
 }
 
 /* Styling for footer */
