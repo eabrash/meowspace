@@ -13,7 +13,7 @@ body {
   width: 98%;
   height: 60px;
   margin: 0px;
-  padding: 1%;
+  padding: 1.5%;
 }
 
 .header_title h1  {
@@ -93,7 +93,7 @@ img {
   display: inline-block;
   position: relative;
   top: 20px;
-  margin-left: -1px;
+  margin-left: 90px;
   margin-bottom: 2%;
 }
 
@@ -130,9 +130,9 @@ main {
   width: 50px;
   padding: 5px 15px 5px 15px;
   margin: 0px 0px 0px 10px;
-  position: relative;
+  position: fixed;
   float: left;
-  top: 20px;
+  top: 260px;
   background-color: #dddc89;
 }
 
