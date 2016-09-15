@@ -72,9 +72,34 @@ img {
   max-height:100%;
 }
 
+/* For individual article pages */
+
+.title-panel {
+  padding: 0 2% 0 2%;
+  background-color: yellow;
+  border: 1px black solid;
+  align-content: center;
+}
+
+.solo_article_metadata{
+  border: 1px black solid;
+  padding: 0.5% 2% 0.5% 2%;
+  margin: 0;
+}
+
+.solo-article {
+  width: 70%;
+  padding: 2%;
+  border: 1px solid black;
+  display: inline-block;
+  position:  sticky;
+  margin-top: 20px;
+  margin-left: 91px;
+}
+
 /* Styling for top cats aside*/
 
-aside {
+#top-cats {
   width: 25%;
   float: left;
 }
@@ -89,6 +114,32 @@ aside {
   border: solid 1px black;
   padding-left: 4%;
   padding-right: 4%;
+}
+
+/* Styling for social media sidebar */
+
+
+#social-media {
+  width: 50px;
+  border: solid 1px black;
+  padding: 5px 15px 5px 15px;
+  margin: 10px;
+  position: fixed;
+  top: 13.9rem;
+}
+
+#social-media h2 {
+  border: solid 1px black;
+  padding: 8%;
+  margin: 0px;
+}
+
+#social-media img {
+  max-width: 50px;
+  display: block;
+  padding: 5;
+  margin: 5%;
+
 }
 
 /* Styling for footer */
@@ -127,6 +178,7 @@ footer {
   width: 98%;
   height: 3rem;
   margin-top: 2%;
+  margin-bottom: 2%;
   padding: 1%;
   border: black 1px dashed;
 }
